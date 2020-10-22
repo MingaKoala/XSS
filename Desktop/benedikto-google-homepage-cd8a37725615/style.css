@@ -1,0 +1,279 @@
+.header {
+  overflow: hidden;
+  /*background-color: grey; */
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding-top: 10px;
+  
+}
+
+
+.titles {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #000;
+  opacity: 0.75;
+  
+} 
+.rightside {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  display:block;
+  
+  
+  float: right;
+}
+
+#pic{
+  padding-right: 10px;
+  padding: 14px;
+}
+#gml{
+  padding: 14px;
+}
+
+.app {
+  padding: 14px;
+  float: right;
+  width:  24px;
+  height: 24px;
+
+}
+
+.buttonright{
+  padding: 14px;
+  float: right;
+  background-color: #0080FF;
+  border:none;
+  color:white;
+}
+
+.imgbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.imgstyle {
+   max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: 152.55; 
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    height: 272; 
+    
+    
+    
+}
+
+
+.inputfield{
+   
+    border-radius: 20px;
+    background-color: transparent;
+    
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    
+
+    
+    /* anschauen!!!!
+
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px; 
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    size: 4; */
+}
+#input{
+  text-align: center; 
+  margin: auto;
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  width: 487px;
+}
+
+
+
+  
+
+
+.buttonleft{
+  margin: 11px 4px;
+  padding: 0px 16px;
+
+  background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.imgsearch{
+  display: flex;
+  position: absolute;
+  align-items: right;
+  height: 20px;
+}
+
+b{
+  font-weight: bold;
+  color:blue;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  }
+  
+  .test{
+    color: grey;
+    background-color: grey;
+  }
+
+
+  * {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 20px;
+  background: grey;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border:10px;
+  border-radius: 20px;
+  
+  
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  background-color: grey;
+  
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.icon-search{
+  background: url(images/search-24px.svg) no-repeat scroll 7px 7px;
+  padding-left:35px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.speekicon{
+  background: no-repeat scroll 7px 7px;
+  padding-right: 35px;
+  height:24px;
+  
+  
+
+
+  
+}
+
+
+
+/* Das input feld umsetzen für das obere dort funktioniert das mit den Icons*/
+
+#input_container {
+  position:relative;
+  padding:0 0 0 20px;
+  margin:0 20px;
+  background:#ddd;
+  direction: rtl;
+  width: 200px;
+}
+#input {
+  height:40px;
+  margin:0;
+  padding-right: 30px;
+  width: 100%;
+}
+#input_img {
+  position:absolute;
+  bottom:2px;
+  right:5px;
+  width:24px;
+  height:24px;
+}
